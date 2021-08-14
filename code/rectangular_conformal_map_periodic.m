@@ -20,7 +20,7 @@ function map = rectangular_conformal_map_periodic(v,f,corner)
 %     SIAM Journal on Imaging Sciences, 9(4), pp. 1922-1962, 2016.
 %
 % [2] G. P. T. Choi, 
-%     "Efficient Conformal Parameterization of Multiply-Connected Surfaces Using Quasi-Conformal Theory"
+%     "Efficient Conformal Parameterization of Multiply-Connected Surfaces Using Quasi-Conformal Theory."
 %     Journal of Scientific Computing, 87(3), 70, 2021.
 %
 % Copyright (c) 2021, Gary P. T. Choi
@@ -57,11 +57,6 @@ if id2 > id3
     % we correct the orientation and start over
     warning('The input triangulations are with clockwise orientation!');
     f = fliplr(f);
-    % TR = TriRep(f,v);     % for older versions of MATLAB
-    % B = freeBoundary(TR); % for older versions of MATLAB
-%     TR = triangulation(f,v);
-%     B = TR.freeBoundary;
-%     bdy_index = B(:,1);
     bd = meshboundaries(f);
     bdy_index = bd{1};
     id = find(bdy_index == corner(1));

@@ -1,4 +1,4 @@
-function [v_sliced,f_sliced] = slice_mesh_annulus(v,f,slice_path,bd)%bd_inner, bd_outer)
+function [v_sliced,f_sliced] = slice_mesh_annulus(v,f,slice_path,bd)
 % Slice a mesh with annulus topology to obtain a simply-connected open mesh
 %
 % Input:
@@ -13,7 +13,7 @@ function [v_sliced,f_sliced] = slice_mesh_annulus(v,f,slice_path,bd)%bd_inner, b
 %
 % If you use this code in your own work, please cite the following paper:
 % [1] G. P. T. Choi, 
-%     "Efficient Conformal Parameterization of Multiply-Connected Surfaces Using Quasi-Conformal Theory"
+%     "Efficient Conformal Parameterization of Multiply-Connected Surfaces Using Quasi-Conformal Theory."
 %     Journal of Scientific Computing, 87(3), 70, 2021.
 %
 % Copyright (c) 2021, Gary P. T. Choi
