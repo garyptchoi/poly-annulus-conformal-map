@@ -14,9 +14,9 @@ If you use this code in your own work, please cite the following paper:
     "[Efficient Conformal Parameterization of Multiply-Connected Surfaces Using Quasi-Conformal Theory.](https://doi.org/10.1007/s10915-021-01479-y)"
     Journal of Scientific Computing, 87(3), 70, 2021.
 
-Copyright (c) 2021, Gary Pui-Tung Choi
+Copyright (c) 2021-2024, Gary Pui-Tung Choi
 
-https://math.mit.edu/~ptchoi
+https://www.math.cuhk.edu.hk/~ptchoi
 
 ===============================================================
 
